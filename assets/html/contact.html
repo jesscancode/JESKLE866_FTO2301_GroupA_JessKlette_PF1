@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>jesscancode</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&f[]=general-sans@701,500,301,300,601,600,401,501,400,700&display=swap" rel="stylesheet">      
+    <link rel="stylesheet" href="../css/styles.css">
+    <script type="module" src="../js/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <!-- SITE NAVIGATION -->
+        <div class="container">
+            <div class="logo">jesscancode</div>
+            <div class="hamburger">
+                <!-- This DIVS below are for the lines in the Hamburger menu -->
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar" role="navigation">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../assets/html/about.html">About</a></li>
+                <li><a href="../../assets/html/resume.html">Resume</a></li>
+                <li><a href="https://www.metabolicmonthly.com/">Writing</a></li>
+                <li><a href="../../assets/html/contact.html" class="active">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+        
+        <div class="hero_contact">
+            <picture>
+                <img src="../img/cv_small.png" alt="profile portrait of Jess Klette" class="contact_photo">
+            </picture>
+            <!-- <h1 class="contact_hero">Contact</h1>   -->
+        </div>
+
+        <div class="container">
+            <form target="_blank" action="https://formsubmit.co/hi@jesscancode.com" method="POST">
+                <h1>Hi! Let's connect 👋 </h1>
+                <p>Hi, I'm Jess! Social worker to Software Developer 💻 Project Manager | Javascript Developer | Web Developer | 🥗 Currently thinking about and building innovative solutions to the mental health and metabolic health crisis. 🏋🏼‍♀️</p>
+                <label for="input"></label>
+                <input type="text" id="name" name="firstname" placeholder="Name" required>
+
+                <label for="input"></label>
+                <input type="text" id="surname" name="surname" placeholder="Surname" required>
+                
+                <label for="input"></label>
+                <input type="text" id="useremail" name="email" placeholder="Email" required>
+                
+                <fieldset class="fieldset" name="_subject">
+                <legend>Please select your industry:</legend>
+                <input type="radio" id="choice1" name="industry" value="text" />
+                <label for="choice1">Tech</label>
+            
+                <input type="radio" id="choice2" name="industry" value="text" />
+                <label for="choice2">Health</label>
+            
+                <input type="radio" id="choice3" name="industry" value="text" />
+                <label for="choice3">Finance | Insurance</label>
+
+                <input type="radio" id="choice4" name="industry" value="text" />
+                <label for="choice4">Government</label>
+
+                <input type="radio" id="choice5" name="industry" value="text" />
+                <label for="choice5">Design</label>
+                </fieldset>
+
+                <label for="subject"><h1>Let's connect 📨 </h1></label>
+                <textarea id="subject" name="message" placeholder="Let's connect. What would you like to know?" optional></textarea>
+                
+                <button type="submit" class="submit-btn">
+                
+            </form>
+
+
+        </div>
+                
+        
+        
+        <footer>
+            <!-- Add link here to socials -->
+        </footer>
+
+            </div>
+        </div>
+    </body>
+</html>
