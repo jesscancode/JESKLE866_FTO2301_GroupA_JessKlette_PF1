@@ -68,6 +68,7 @@ LAYOUT
 .container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: flex-start;
   width: 80%;
   max-width: var(--width-container);
@@ -96,6 +97,8 @@ p {
 
 #WORK > ul {
   font-size: var(--font-m);
+  padding-top: var(--spacing-xl);
+  padding-bottom: var(--spacing-xl);
 }
 
 #WORK > h1 {
@@ -111,7 +114,7 @@ p {
 
 #WORK > ul {
   margin-left: var(--spacing-xl);
-  padding: var(--spacing-m);
+  padding-left: var(--spacing-m);
 }
 
 /* 
@@ -491,6 +494,7 @@ RESUME LAYOUT
   filter: invert(100%);
   max-width: 30px;
   margin-right: 10px;
+  padding-top: var(--spacing-m);
 }
 
 .icons:hover {
@@ -657,6 +661,10 @@ CARD SECTION
 FORM
 ============================
 */
+form > p {
+  padding-top: var(--spacing-m);
+  padding-bottom: var(--spacing-m);
+}
 
 .hero_contact {
   height: 400px;
@@ -720,12 +728,12 @@ input {
 FOOTER
 ============================
 */
-
 footer {
   min-height: 100px;
   background-color: var(--secondary-color);
   margin-top: var(--spacing-xl);
   padding-top: var(--spacing-xl);
+  padding-bottom: var(--spacing-xl);
 }
 
 footer > a {
@@ -736,7 +744,6 @@ footer > a {
 .footer_container {
   justify-content: space-between;
 }
-
 
 footer > p {
   font-size: var(--font-xxl);
