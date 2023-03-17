@@ -661,6 +661,25 @@ FORM
 ============================
 */
 
+.hero_contact {
+  height: 400px;
+  background-image: url("/assets/img/coding.jpg");
+  background-color: orangered;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact_photo {
+  border-radius: 50%;
+  max-width: 300px;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+}
+
 form {
   padding: 5em 5em;
   margin: auto auto;
