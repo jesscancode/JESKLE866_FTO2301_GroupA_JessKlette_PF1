@@ -91,6 +91,26 @@ header {
   padding-bottom: var(--spacing-l);
 }
 
+p {
+  font-size: var(--font-m);
+}
+
+#WORK > ul {
+  font-size: var(--font-m);
+}
+
+#WORK > h2,
+#WORK > h3,
+#WORK > li {
+  padding-top: var(--spacing-m);
+  text-align: left;
+}
+
+#WORK > ul {
+  margin-left: var(--spacing-xl);
+  padding: var(--spacing-m);
+}
+
 /* 
 ============================
 RESPONSIVE NAVIGATION | MOBILE FIRST
@@ -416,7 +436,7 @@ MAIN DIVIDER LAYOUT
 #WORK > p {
   text-align: left;
   align-content: left;
-  margin-top: 2em;
+  margin-top: var(--spacing-s);
 }
 
 .main_headings {
@@ -433,12 +453,13 @@ MAIN DIVIDER LAYOUT
   text-align: left;
 }
 
-.main_headings_right {
+.main_headings_right > h1 {
   text-align: right;
 }
 
 .tools {
   margin-top: 2em;
+  align-items: right;
 }
 
 /* 
