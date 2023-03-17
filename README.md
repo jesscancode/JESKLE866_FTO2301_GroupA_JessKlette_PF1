@@ -2,6 +2,10 @@
 
 # Codespace Academy
 
-Final Portfolio Project for Intro to Web course. 
+Hi, I'm Jess. Social worker to Software Developer 💻 Project Manager | Javascript Developer | Web Developer | 🥗 Currently thinking about and building innovative solutions to the mental health and metabolic health crisis. 🏋🏼‍♀️
 
-HTML, CSS, and Javscript was used 
+This is my digital portfilio webpage. This project was created as part of the Final Portfolio Project for Intro to Web course at Codespace Academy. 
+
+HTML, CSS, and Javscript was used to build out this entire project.
+
+Please see the link here for my Figma wireframe and initial design: https://www.figma.com/file/ONLYrLB8SLZWYpjeJSId0t/CodeSpace-%7C-Intro-to-Web-%7C-Resume-Design-%7C-Jess-Klette?node-id=0%3A1&t=0tryptluhyPtVqCI-1
