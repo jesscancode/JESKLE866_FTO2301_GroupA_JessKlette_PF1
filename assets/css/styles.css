@@ -99,6 +99,10 @@ p {
   font-size: var(--font-m);
 }
 
+#WORK > h1 {
+  margin-top: var(--spacing-l);
+}
+
 #WORK > h2,
 #WORK > h3,
 #WORK > li {
@@ -479,12 +483,6 @@ RESUME LAYOUT
 
 }
 
-.sidebar {
-  border: 2px solid green;
-  background: hsla(0, 0%, 12%, 1);
-  padding: 2em 2em;
-}
-
 .resume_image {
   border-radius: 50%;
   max-width: 15em;
@@ -655,9 +653,6 @@ CARD SECTION
   opacity: 0.5;;
 } 
 
-
-
-
 /* 
 ============================
 FOOTER
@@ -668,4 +663,5 @@ footer {
   min-height: 100px;
   background-color: var(--secondary-color);
   margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
 }
