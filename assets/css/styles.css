@@ -453,7 +453,7 @@ MAIN DIVIDER LAYOUT
   font-size: 0.5em;
 }
 
-.main_headings_left {
+.main_headings_left > h1 {
   text-align: left;
 }
 
@@ -652,6 +652,52 @@ CARD SECTION
 .card_background > background-image {
   opacity: 0.5;;
 } 
+
+
+
+/* 
+============================
+FORM
+============================
+*/
+
+form {
+  padding: 5em 5em;
+  margin: auto auto;
+}
+
+.fieldset {
+  margin: 2em 0em;
+
+}
+
+input {
+  margin: 0.5em 0.5em;
+  padding: 1em;
+  border-radius: 30px;
+}
+
+.placeholder {
+  color: var(--secondary-color);
+}
+
+#subject {
+  height: 4em;
+  width: 100%;
+  padding: 1em;
+}
+
+.submit-btn {
+  background-color: var(--secondary-color);
+  color: var(--primary-color-light);
+  font-size: var(--font-s);
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
+  display: block;
+  padding: 2em 2em;
+  margin: 1em 0em;
+  border-radius: 50px;
+}
 
 /* 
 ============================
