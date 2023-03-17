@@ -27,7 +27,7 @@ CSS RESET
 
 --primary-color-light: whitesmoke;
 --primary-color-dark: rgb(4, 4, 4);
---secondary-color: orangered;
+--secondary-color: #ff0095;
 
 --spacing-s: 0.5em;
 --spacing-m: 1em;
@@ -629,8 +629,9 @@ CARD SECTION
 
 .card_description { 
   margin-top: 2em;
-  color: var(--primary-color-dark);
+  color: var(--primary-color-light);
   font-size: var(--font-m);
+  filter: drop-shadow(3px 3px 2px black);;
 }
 
 @media(min-width: 540px){
@@ -647,4 +648,25 @@ CARD SECTION
 
 .card_background {
   background-color: white;
+  opacity: 0.4;
 } 
+
+.card_background > background-image {
+  opacity: 0.5;;
+} 
+
+
+
+
+/* 
+============================
+FOOTER
+============================
+*/
+
+footer {
+  min-height: 100px;
+  background-color: var(--secondary-color);
+  margin-top: var(--spacing-xl);
+
+}
