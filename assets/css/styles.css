@@ -678,8 +678,9 @@ form > p {
 }
 
 .contact_photo {
-  border-radius: 50%;
+  border-radius: 50px;
   max-width: 300px;
+  max-height: 400px;
   padding: 0;
   display: block;
   margin: 0 auto;
