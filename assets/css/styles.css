@@ -69,7 +69,6 @@ LAYOUT
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
   width: 80%;
   max-width: var(--width-container);
   margin: 0 auto;
@@ -653,8 +652,6 @@ CARD SECTION
   opacity: 0.5;;
 } 
 
-
-
 /* 
 ============================
 FORM
@@ -664,7 +661,7 @@ FORM
 .hero_contact {
   height: 400px;
   background-image: url("/assets/img/coding.jpg");
-  background-color: orangered;
+  background-color: var(--secondary-color);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -729,4 +726,18 @@ footer {
   background-color: var(--secondary-color);
   margin-top: var(--spacing-xl);
   padding-top: var(--spacing-xl);
+}
+
+footer > a {
+  color: #000;
+  background-color: #000;
+}
+
+.footer_container {
+  justify-content: space-between;
+}
+
+
+footer > p {
+  font-size: var(--font-xxl);
 }
